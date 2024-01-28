@@ -1,0 +1,28 @@
+.newGoalContainer {
+    opacity: 0;
+    
+}
+
+.newGoalContainer.display {
+    background-color: rgb(242, 200, 211, 0.5);
+    height: 60vh;
+    width:50vw;
+    position: sticky;
+    top: 25vh;
+    left: 25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+}
+
+.newGoalContainer > h1 {
+    opacity: 1;
+}
+
+.newGoalContainer > input {
+    height: 5%;
+    width: 80%;
+    background-color: aqua;
+    margin-bottom: 5%;
+}
